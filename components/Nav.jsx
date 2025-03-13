@@ -1,8 +1,8 @@
 'use client'
 
 import React from 'react'
-import Link from '@node_modules/next/link';
-import Image from '@node_modules/next/image';
+import Link from 'next/link';
+import Image from 'next/image';
 
 import { useState, useEffect } from 'react';
 import { signIn, signOut, getProviders, useSession } from 'next-auth/react'
