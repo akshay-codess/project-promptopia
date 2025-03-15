@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@upstash/redis": "^1.34.5",
     "bcrypt": "^5.1.1",
     "mongodb": "^6.14.2",
     "mongoose": "^8.12.1",
